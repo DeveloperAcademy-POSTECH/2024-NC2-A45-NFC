@@ -25,6 +25,7 @@ struct FinishingView: View {
                             .font(
                                 Font.custom("Pretendard", size: 18)
                                     .weight(.semibold)
+                       
                             )
                             .multilineTextAlignment(.center)
                             .foregroundColor(Color.mainblue)

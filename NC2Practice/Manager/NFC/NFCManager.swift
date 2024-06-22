@@ -17,16 +17,6 @@ func startNFCTagging() {
 // NFC 태그 인식 및 데이터 읽기
 final class NFCManager: NSObject, NFCTagReaderSessionDelegate {
     static let shared = NFCManager()
-    
-//    private var session: NFCTagReaderSession?
-//    private var deviceIdentifier: String?
-//
-//    func startSession(with deviceIdentifier: String) {
-//        self.deviceIdentifier = deviceIdentifier
-//        session = NFCTagReaderSession(pollingOption: .iso14443, delegate: self, queue: nil)
-//        session?.alertMessage = "Hold your iPhone near the NFC tag."
-//        session?.begin()
-//    }
     func tagReaderSession(_ session: NFCTagReaderSession, didDetect tags: [NFCTag]) {
           guard let firstTag = tags.first else { return }
           
@@ -36,7 +26,6 @@ final class NFCManager: NSObject, NFCTagReaderSessionDelegate {
                   return
               }
               
-              // Assuming tag has information to identify device
               let deviceIdentifier = self.identifyDevice(from: firstTag)
               
               session.alertMessage = "시간이 설정되었습니다."
@@ -50,9 +39,6 @@ final class NFCManager: NSObject, NFCTagReaderSessionDelegate {
       }
     
     func identifyDevice(from tag: NFCTag) -> String {
-        // Here you need to implement logic to identify the device based on the tag data
-        // This is a placeholder implementation
-        // In a real application, you would parse the tag's data to determine the device type
         return "세탁기" // or "건조기"
     }
     

@@ -18,7 +18,6 @@
 		242AAF182C1F23CE00FEB1E8 /* NC2PracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242AAF172C1F23CE00FEB1E8 /* NC2PracticeTests.swift */; };
 		242AAF222C1F23CE00FEB1E8 /* NC2PracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242AAF212C1F23CE00FEB1E8 /* NC2PracticeUITests.swift */; };
 		242AAF242C1F23CE00FEB1E8 /* NC2PracticeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242AAF232C1F23CE00FEB1E8 /* NC2PracticeUITestsLaunchTests.swift */; };
-		2491BAB82C22CD4300F23BA9 /* ReadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2491BAB72C22CD4300F23BA9 /* ReadView.swift */; };
 		2491BABA2C231B7900F23BA9 /* MaleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2491BAB92C231B7900F23BA9 /* MaleView.swift */; };
 		2491BAC02C231F2A00F23BA9 /* FemaleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2491BABF2C231F2A00F23BA9 /* FemaleView.swift */; };
 		24C5C0442C241632005653FC /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C5C0432C241632005653FC /* NotificationManager.swift */; };
@@ -57,7 +56,6 @@
 		242AAF1D2C1F23CE00FEB1E8 /* NC2PracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NC2PracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		242AAF212C1F23CE00FEB1E8 /* NC2PracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NC2PracticeUITests.swift; sourceTree = "<group>"; };
 		242AAF232C1F23CE00FEB1E8 /* NC2PracticeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NC2PracticeUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		2491BAB72C22CD4300F23BA9 /* ReadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadView.swift; sourceTree = "<group>"; };
 		2491BAB92C231B7900F23BA9 /* MaleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaleView.swift; sourceTree = "<group>"; };
 		2491BABF2C231F2A00F23BA9 /* FemaleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FemaleView.swift; sourceTree = "<group>"; };
 		24C305472C206D1A0002DB10 /* NC2Practice.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NC2Practice.entitlements; sourceTree = "<group>"; };
@@ -173,7 +171,6 @@
 				24C5C0462C24168A005653FC /* NFCManager.swift */,
 				241C1CDF2C21C5380011A6F6 /* NFCWriteView.swift */,
 				241C1CE12C21CFF90011A6F6 /* NFCReadView.swift */,
-				2491BAB72C22CD4300F23BA9 /* ReadView.swift */,
 			);
 			path = NFC;
 			sourceTree = "<group>";
@@ -341,7 +338,6 @@
 				24C5C0442C241632005653FC /* NotificationManager.swift in Sources */,
 				241C1CE22C21CFF90011A6F6 /* NFCReadView.swift in Sources */,
 				2491BABA2C231B7900F23BA9 /* MaleView.swift in Sources */,
-				2491BAB82C22CD4300F23BA9 /* ReadView.swift in Sources */,
 				2491BAC02C231F2A00F23BA9 /* FemaleView.swift in Sources */,
 				24C5C0472C24168A005653FC /* NFCManager.swift in Sources */,
 				241C1CDC2C2152570011A6F6 /* SettingWasherView.swift in Sources */,
