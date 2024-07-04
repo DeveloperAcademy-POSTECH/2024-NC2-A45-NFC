@@ -4,7 +4,7 @@
 **18동 생활관의 슬기로운 세탁생활을 위한 NFC 활용 타이머 설정 앱, 띠-딕빨래** <br><br>
 
 ## 🎥 Youtube Link
-(추후 만들어진 유튜브 링크 추가)
+https://youtu.be/6ybi9JvpVQU?si=xcPhsz1FSXb-Gx3k
 <br><br>
 ## 💳 NFC란?
 > **Near Field Communication, 근거리 무선 통신 기술**
